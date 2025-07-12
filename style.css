@@ -89,6 +89,8 @@ body {
   place-content: center;
   margin: 0 auto;
   background-color: var(--BODY-BG);
+  background-image: url("./images/bg-intro-mobile.png");
+  background-repeat: repeat;
 }
 
 h1,
