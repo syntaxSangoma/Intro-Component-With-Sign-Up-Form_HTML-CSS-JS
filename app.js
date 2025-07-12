@@ -46,7 +46,7 @@ if (form && inputs && submitBtn) {
     else if (input.name === "lastName" || input.name === "firstName") {
       if (value.length < 2) {
         setError("Name must be at least 2 characters long.");
-      } else if (!/^[a-zA-Z\s]+$/.test(value)) {
+      } else if (!/^[a-zA-ZÀ-ÖØ-öø-ÿ\s'-]+$/.test(value)) {
         setError("Name must only contain letters.");
       } else {
         setSuccess("Looks good!");
